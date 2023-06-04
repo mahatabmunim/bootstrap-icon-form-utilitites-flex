@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>booststrap-form-flex-utilities-icon-variables</title>
+ <!-- css link  -->
+<!-- css link Bootstrap -->
+<link rel="stylesheet" href="css/bootstrap.css">
+<!-- css link customs -->
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/media.css">
+<!-- css icon link  -->
+<link rel="stylesheet" href="css/bootstrap-icons.css">
+</head>
+ <body>
+
+    <!-- booststrap icon start -->
+    <div class="container">
+      <h1>icon :</h1>
+      <i class="bi bi-0-circle-fill"></i>
+      <i class="bi bi-chevron-double-right"></i>
+      <i class="bi bi-chevron-double-right"></i>
+      <i class="bi bi-chevron-double-right"></i>
+    </div>
+    <!-- booststrap icon end -->
+
+    <!-- utilities border start  -->
+    <div class="container">
+      <h1>border : </h1>
+      <p>border দেখা যায় না কেনো? </p>
+      <div class="box border-left m-5"></div>
+      <div class="box border-top m-5"></div>
+      <div class="box border-end m-5"></div>
+      <div class="box border-bottom m-5"></div>
+      <div class="box border-start m-5"></div>
+      <div class="box2 border-danger border-6 m-5"></div>
+      <div class="box border-primary m-4"></div>
+    </div>
+    <!-- utilities border end  -->
+    <!-- border-radius start -->
+    <div class="container">
+      <h1>border-radius</h1>
+      <div class="box_3 border-danger-subtle rounded-circle m-3"></div>
+      <div class="box_3 border-danger-success rounded m-3"></div>
+      <div class="box_3 border-danger-subtle rounded-top m-3"></div>
+      <div class="box_3 border-danger-subtle rounded-end m-3"></div>
+      <div class="box_3 border-danger-subtle rounded-pill m-3"></div>
+      <div class="box_3 border-danger-subtle rounded-end-circle m-3"></div>
+      <div class="box_3 border-danger-subtle rounded-start m-3"></div>
+    </div>
+    <!-- border-radius end -->
+    <!-- text color start -->
+    <div class="container">
+      <h1>text color :</h1>
+      <p class="text-danger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, aut.</p>
+      <p class="text-success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, aut.</p>
+      <p class="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, aut.</p>
+      <p class=" text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, aut.</p>
+      <p class="text-warning">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, aut.</p>
+    </div>
+    <!-- text color end -->
+    <!-- background color start  -->
+    <div class="container">
+      <h1>background color : </h1>
+      <p class="bg-primary mb-5 p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non, magnam.</p>
+      <p class="bg-secondary mb-5 p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non, magnam.</p>
+      <p class="bg-black text-white mb-5 p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non, magnam.</p>
+      <p class="bg-danger mb-5 p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non, magnam.</p>
+      <p class="bg-dark-subtle mb-5 p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non, magnam.</p>
+      <p class="bg-info mb-5 p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non, magnam.</p>
+    </div>
+    <!-- background color end -->
+    <!-- flex start -->
+    <div class="container">
+      <h1 class="border-bottom">flex :</h1>
+      <div class="d-inline-flex bg-primary">
+        <p> ১+১=২px হয় কেনো  Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, odio!</p>
+      </div>
+      <div class="flex-row flex1 mt-3">
+      <p class=" flex1 "> Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, sapiente.</p>
+      <p class="flex1 "> Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, sapiente.</p>
+      <p class="flex1 flex-row-reverse "> হয় নাই Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, sapiente.</p>
+    </div>
+    <div class="d-flex flex-column bg-info mt-4">
+      <div class="flex1 d-flex justify-content-center">১+১=২px হয় কেনো flex 1</div>
+      <div class="d-flex flex1 justify-content-end">১+১=২px হয় কেনো flex 2</div>
+      <div class="d-flex flex1 justify-content-start">flex3</div>
+    </div>
+    </div>
+    <!-- flex end -->
+    <!-- position start  -->
+    <div class="container">
+      <h1>position :</h1>
+      <p>হয় নাই</p>
+      <div class="position1 bg-dark position-relative">
+        <div class="box_4 bg-danger position-absolute top-0 right-0"></div>
+        <div class="box_4 bg-danger position-absolute bottom-0 right-0"></div>
+        <div class="box_4 bg-danger position-absolute bottom-50 right-50"></div>
+
+      </div>
+    </div>
+    <!-- position end -->
+    <!-- form start  -->
+    <div class="container">
+  <form>
+    <div class="mb-3">
+      <label for="name1" class="form-label">Name</label>
+      <input type="text" class="form-control" id="name1">
+    </div>
+  <div class="mb-3">
+    <label for="email1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="email1" aria-describedby="emailHelp" name="email1" required>
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="Password1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="Password1">
+    <div id="Password1" class="form-text" name="Password1" required >We'll never share your password with anyone else.</div>
+  </div>
+
+  <div class="mb-3">
+    <label for="file1" class="form-label">Default file input example</label>
+    <input class="form-control" type="file" id="file1">
+  </div>
+
+  <div class="mb-3">
+    <label for="textarea1" class="form-label">Example textarea</label>
+    <textarea class="form-control" id="textarea1" rows="3"></textarea>
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="check1" required>
+    <label class="form-check-label check1" for="check1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<button type="reset" class="btn btn-primary">Reset</button>
+</form>
+    </div>
+    <!-- form start end -->
+
+
+<!-- js links -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<!-- js link customs -->
+<script src="js/script.js"></script>
+  </body>
+</html>
